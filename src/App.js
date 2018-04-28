@@ -6,14 +6,15 @@ import './App.css';
 import Nav from './Nav';
 
 // importing FirstSection Component
-import FirstSection from './FirstSection'
+import FirstSection from './FirstSection';
+
+import Home from './Home';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Nav />
-      <FirstSection />
+        <Home />
       </div>
     );
   }

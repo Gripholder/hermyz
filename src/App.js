@@ -1,41 +1,19 @@
-import React, { Component } from 'react';
-<<<<<<< HEAD
-// import logo from './logo.svg';
-// import './App.css';
+import React, { Component } from 'react'
 
-// importing NavBar component
-// import Nav from './Nav';
+import Right from './Right/Right'
+import Left from './Left/Left'
 
-// importing FirstSection Component
-// import FirstSection from './FirstSection';
-
-// import Home from './Home';
-
-import Right from './Right'
-=======
-import './App.css';
-
-// Importing Left component
-import Left from './Left'
-
-// importing Left component
-import Right from './Right'
-
->>>>>>> 53acddeb2ac34d6ced3cf8b475226a8a4167ab6b
+import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-<<<<<<< HEAD
-        <Right />
-=======
+      <div className='App'>
         <Left />
-        {/* <Right /> */}
->>>>>>> 53acddeb2ac34d6ced3cf8b475226a8a4167ab6b
+        <Right />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

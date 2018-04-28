@@ -4,7 +4,7 @@ import './Nav.css'
 class Nav extends Component {
   render () {
     return (
-      <ul className="NavList">
+      <ul className='NavList'>
         <li>Home</li>
         <li>About</li>
       </ul>

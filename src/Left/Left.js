@@ -31,16 +31,8 @@ class Left extends Component {
           <h4>
             Install on Slack
           </h4>
-          {/* <hr></hr> */}
           <button><img src={slack}></img>Add to Slack</button>
         </div>
-        {/* <Header className='brand' as='h2'>
-          <Image circular src={hermes} />
-        Hemzy
-        </Header> */}
-        {/* <Container textAlign='center'>
-          Connect to our Slack plug-in service!
-        </Container> */}
       </div>
     )
   }

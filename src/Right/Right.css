@@ -1,8 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Anton|Arima+Madurai|Gamja+Flower|Gloria+Hallelujah|Muli';
 
 .right {
-  /* float: left; */
-  height: 100vh;
   width: 60vw;
   /* Image Source: https://www.desktopbackground.org/wallpaper/futurama-dr-zoidberg-simple-wallpapers-663792 */
   background-image: url('./dr-zoidberg.jpg') !important;
@@ -11,13 +9,15 @@
 
 .NavList button {
   border: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 36px;
   float: right;
-  padding: 15px 35px 0 0;
+  padding: 10px 10px;
   cursor: pointer;
+  margin-right: 10px;
+  border-radius: 7px;
 }
 
 .right-main {

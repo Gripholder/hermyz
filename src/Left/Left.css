@@ -1,11 +1,7 @@
 .left {
   font-family: 'Gloria Hallelujah', cursive;
-    /* float: left; */
-    height: 99vh;
     width: 40vw;
-    /* padding: 25vh 0; */
     color: white;
-    /* text-align: center */
 }
 
 .left img {

@@ -24,7 +24,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as='h1'
-      content='Imagine-a-Company'
+      content='Hemzy'
       inverted
       style={{
         fontSize: mobile ? '2em' : '4em',
@@ -43,9 +43,14 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? '0.5em' : '1.5em',
       }}
     />
-    <Button primary size='huge'>
-      Get Started
-      <Icon name='right arrow' />
+    <Button white size='huge'>
+      <div>
+  <Image src='slackIcon.jpg' avatar />
+  <span>Add to <span>Slack</span></span>
+</div>
+)
+
+      {/* <Icon name='right arrow' /> */}
     </Button>
   </Container>
 )
@@ -85,8 +90,9 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a'>Company</Menu.Item>
                 <Menu.Item as='a'>Careers</Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' inverted={!fixed}>Log in</Button>
-                  <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>Sign Up</Button>
+                  {/* User Authentication if needed. */}
+                  {/* <Button as='a' inverted={!fixed}>Log in</Button>
+                  <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>Sign Up</Button> */}
                 </Menu.Item>
               </Container>
             </Menu>

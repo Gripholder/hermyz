@@ -1,29 +1,27 @@
 @import 'https://fonts.googleapis.com/css?family=Anton|Arima+Madurai|Gamja+Flower|Gloria+Hallelujah|Muli';
 
 .right {
-    float: left;
-    height: 100vh;
-    width: 60vw;
-    /* Image Source: https://www.desktopbackground.org/wallpaper/futurama-dr-zoidberg-simple-wallpapers-663792 */
-    background-image: url('./dr-zoidberg.jpg') !important;
-    background-position: left bottom;
-    padding: 25vh 0;
-    color: white;
-    text-align: center
+  float: left;
+  height: 100vh;
+  width: 60vw;
+  /* Image Source: https://www.desktopbackground.org/wallpaper/futurama-dr-zoidberg-simple-wallpapers-663792 */
+  background-image: url('./dr-zoidberg.jpg') !important;
+  background-position: left bottom;
 }
 
-.right * {
-  margin: 10px;
-}
-
-.right h1 {
+.NavList button {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 50px;
-  margin-bottom: 25px;
+  font-size: 36px;
+  float: right;
+  padding: 15px 35px 0 0;
+  cursor: pointer;
 }
 
-.right p {
-  font-family: 'Gamja Flower', cursive;
-  font-size: 42px;
-  padding: 0 50px;
+.right-main {
+  padding: 25vh 0;
+  color: white;
+  text-align: center;
 }

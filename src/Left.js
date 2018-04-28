@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import './hermes.jpg';
+import './Left.css';
+import hermes from './hermes.jpg';
 
 import {
   Button,
@@ -20,10 +21,34 @@ import {
 
 
 const HeaderExampleImage = () => (
-  <Header as='h2'>
-    <Image circular src='./hermes.jpg' />
-    {' '}Hemzy
+  <div>
+   <Header as='h1' floated="left">
+    <Image circular src={hermes} />
+    Hemzy
   </Header>
+  <ContainerExampleAlignment />
+</div>
 )
+
+const ContainerExampleAlignment = () => (
+  <div>
+    <Container textAlign='center'>
+      Connect to our Slack plug-in service!
+    </Container>
+  </div>
+)
+
+class Left extends Component {
+  render(){
+    return(
+    <div className="Left">
+      <HeaderExampleImage />
+      <br></br>
+      <ContainerExampleAlignment />
+    </div>
+    )
+  }
+}
+
 
 export default HeaderExampleImage

@@ -23,15 +23,15 @@ class Left extends Component {
   render () {
     return (
       <div className='left'>
-        <header className="h1">
-          <img src={hermes}></img>
+        <header className='h1'>
+          <img src={hermes} />
           Hermyz
         </header>
-        <div className="slack">
+        <div className='slack'>
           <h4>
             Install on Slack
           </h4>
-          <button><img src={slack}></img>Add to Slack</button>
+          <button><img src={slack} />Add to Slack</button>
         </div>
       </div>
     )

@@ -23,13 +23,13 @@
 
 ## Important Links
 - Planning Repo: https://github.com/spiffcs/visaDeveloperDC
-- Back-end: https://github.com/zbauer91/visa-hackathon-backend/
-- Front-end: https://github.com/Gripholder/hermyz/
-- GoLang Service: https://github.com/spiffcs/vispoc
+- Back-end Repo: https://github.com/zbauer91/visa-hackathon-backend/
+- Front-end Repo: https://github.com/Gripholder/hermyz/
+- Bot Repo: https://github.com/spiffcs/vispoc
 - Test Slack Channel: https://visapaymentservice.slack.com/
 - Slack Bot: https://api.slack.com/apps/AAFTSCW22
-- Bot Slack API: http://api.slack.hermyz.com/api/v1/healthz
-- Deployed: http://www.hermyz.com
+- Bot API: http://api.slack.hermyz.com/api/v1/healthz
+- Landing Page: http://www.hermyz.com
 
 ## How Hermyz was built
 Friday, April 27

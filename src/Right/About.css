@@ -1,5 +1,28 @@
+.description {
+  margin-top: -50px;
+}
+
 .description p {
   font-family: 'Gamja Flower', cursive;
   font-size: 30px;
   padding: 0 50px;
+}
+
+.team {
+  float: right;
+  margin-right: 20px;
+}
+
+.team h4 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+}
+
+.team a {
+  margin-right: 30px;
+}
+
+.team img {
+  height: 70px;
+  border-radius: 33.3px;
 }

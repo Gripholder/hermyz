@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Left.css'
-import hermyz from './favicon.png'
-import slack from './slackIcon.jpg'
+import hermyz from '../images/favicon.png'
+import slack from '../images/slackIcon.jpg'
 
 class Left extends Component {
   render () {

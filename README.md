@@ -2,6 +2,8 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![Hermyz](./public/favicon.png)
+
 ## Description
 - It's hard for small businesses to keep track of their invoices. Late or overdue payments may lead to penalties, credit damage, or loss of providers. Many small businesses and startups already use Slack for team management. **Hermyz** Keeps track of your invoices, and allows you to list and pay them, without leaving the Slack window.
 - We built Hermyz during [SmallBusinesWeek Hackathon](https://smallbizweek.hackathon.com/), which was organized by [Visa](https://usa.visa.com/) and the [U.S. Small Business Administration](https://www.sba.gov/) in Washington, DC on April 27-29, 2018.
@@ -30,6 +32,7 @@
 - Slack Bot: https://api.slack.com/apps/AAFTSCW22
 - Bot API: http://api.slack.hermyz.com/api/v1/healthz
 - Landing Page: http://www.hermyz.com
+- Presentation: https://docs.google.com/presentation/d/1dcxa4Lyhwbk6ewUI-5L-VCm0XN_GSsTVT4sNqcY724U/
 
 ## How Hermyz was built
 Friday, April 27

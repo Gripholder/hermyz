@@ -1,7 +1,7 @@
 .right {
   width: 60vw;
   /* Image Credit: Igor Bondar https://www.artstation.com/ib_1605  */
-  background-image: url('./hermyz-background.jpg') !important;
+  background-image: url('../images/hermyz-background.jpg') !important;
   background-position: left bottom;
 }
 

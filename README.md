@@ -12,7 +12,7 @@
 - [Christopher Phillips](https://github.com/spiffcs)
 - [Mike Nabil](https://github.com/maikelnabil)
 - [Mohamed Elkarim](https://github.com/Gripholder)
-- [Sandro Guraspasvili](https://github.com/Gura-San)
+- [David Guras](https://github.com/Gura-San)
 - [Zach Bauer](https://github.com/zbauer91)
 
 ## Technology
@@ -21,7 +21,7 @@
 - Hermyz's frontend is build with React.
 - Hermyz is deployed on Kubernetes, Slack, and GitHub Pages.
 - Docker was used to deploy to Kubernetes.
-- Payments are made through [Visa Direct APi](https://developer.visa.com/capabilities/visa_direct)
+- Payments are made through [Visa Direct API](https://developer.visa.com/capabilities/visa_direct)
 
 ## Important Links
 - Planning Repo: https://github.com/spiffcs/visaDeveloperDC
@@ -59,3 +59,9 @@ Sunday, April 29
 ## Features we are working on
 - Allow users to filter invoices by specific criteria, such as invoice date, vendor, payment status, due date, or balance due.
 - Creating a system for invoices to be added to the database electronically, without manual input.
+
+## License
+[MIT](./LICENSE.md). Copyright (c) Christopher Phillips, Mike Nabil, Mohamed Elkarim, David Guras, and Zach Bauer.
+
+## Contributions
+Contributions to Hermyz are welcome. Please, check the [Contributions Guidelines](./.github/CONTRIBUTING.md) for reference!

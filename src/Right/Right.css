@@ -1,9 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Anton|Arima+Madurai|Gamja+Flower|Gloria+Hallelujah|Muli';
-
 .right {
   width: 60vw;
-  /* Image Source: https://www.desktopbackground.org/wallpaper/futurama-dr-zoidberg-simple-wallpapers-663792 */
-  background-image: url('./dr-zoidberg.jpg') !important;
+  /* Image Credit: Igor Bondar https://www.artstation.com/ib_1605  */
+  background-image: url('./hermyz-background.jpg') !important;
   background-position: left bottom;
 }
 

@@ -56,9 +56,23 @@ Sunday, April 29
 - We wrote the final lines of code, and hit `launch`.
 - We presented and pitched our app during the final session of the hackathon.
 
+## Media coverage
+- [Visa: Announcing The #SmallBusinessWeek Hackathon Winners](http://visacorporate.tumblr.com/post/173550863178/announcing-the-smallbusinessweek-hackathon)
+- [Visa: #SmallBusinessWeek Hackathon. $24,000 prize pool.](https://www.youtube.com/watch?time_continue=2&v=JMbW9IaaDRM)
+- [PYMNTS.com: Visa ‘Hackathon’ Produces A Digital Payment Tool For Small Businesses](https://www.pymnts.com/api/2018/visa-hackathon-produces-a-digital-payment-tool-for-small-businesses/)
+- [U.S. SBA: Announcing the #SmallBusinessWeek Hackathon Winners](https://www.sba.gov/blogs/announcing-smallbusinessweek-hackathon-winners)
+
+## Merchandise
+- [Hermyz Logo](https://www.redbubble.com/people/ib1605/works/31639343-hermyz-logo)
+- [Hermyz Logo - Full Size](https://www.redbubble.com/people/ib1605/works/31639776-hermyz-logo-full-size)
+
 ## Features we are working on
-- Allow users to filter invoices by specific criteria, such as invoice date, vendor, payment status, due date, or balance due.
-- Creating a system for invoices to be added to the database electronically, without manual input.
+1. Merging the 2 backends into one, and consolidating the code in one branch
+1. Allow users to filter invoices by specific criteria, such as invoice date, vendor, payment status, due date, or balance due.
+1. User authentication
+1. Connecting Hermyz with Google Sheets API, to pull the list of invoices automatically
+1. Deploying the bot on Slack
+1. Improving markup in Slack
 
 ## License
 [MIT](./LICENSE.md). Copyright (c) Christopher Phillips, Mike Nabil, Mohamed Elkarim, David Guras, and Zach Bauer.
